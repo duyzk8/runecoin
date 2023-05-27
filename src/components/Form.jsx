@@ -4,7 +4,7 @@ const Form = () => {
   return (
     <>
     <div className="container mx-auto py-8">
-    <h1 className="text-2xl font-bold mb-6 text-center">Tu infomracion</h1>
+    <h1 className="text-2xl font-bold mb-6 text-center">Tu información</h1>
     <form className="w-full max-w-sm mx-auto bg-white p-8 rounded-md shadow-md">
       <div className="mb-4">
         <label className="block text-gray-700 text-sm font-bold mb-2" for="name">Nombre real:</label>
