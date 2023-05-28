@@ -32,7 +32,7 @@ const Slider = () => {
                 <Image src="/runecoin.png" alt="runecoin" width={200} height={150}/>
                 <Image src="/tibiacoins.png" alt="runecoin" width={150} height={150}/>
             </div>
-            <div className="w-2/3 mx-auto">
+            <div className="w-2/4 mx-auto">
                 <input
                     type="range"
                     min={0}
@@ -40,7 +40,7 @@ const Slider = () => {
                     step={250}
                     value={value}
                     onChange={handleChange}
-                    className="w-full h-4"
+                    className="w-2/3 h-4"
                 />
             </div>
             <p>Tibia Coins: {value}</p>
