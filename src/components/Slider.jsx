@@ -40,6 +40,7 @@ const Slider = () => {
                     step={250}
                     value={value}
                     onChange={handleChange}
+                    className="w-full h-4"
                 />
             </div>
             <p>Tibia Coins: {value}</p>
